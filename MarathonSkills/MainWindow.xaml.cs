@@ -24,5 +24,29 @@ namespace MarathonSkills
         {
             InitializeComponent();
         }
+
+        protected override void OnClosed(EventArgs e)
+        {
+            base.OnClosed(e);
+            App.Current.Shutdown();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            RegisterAsARunner registerAsARunner = new RegisterAsARunner();
+            registerAsARunner.Owner = this;
+
+            registerAsARunner.Show();
+            this.Hide();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            SponsorARunner sponsorARunner = new SponsorARunner();
+            sponsorARunner.Owner = this;
+
+            sponsorARunner.Show();
+            this.Hide();
+        }
     }
 }

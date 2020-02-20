@@ -1,0 +1,24 @@
+﻿<Window x:Class="MarathonSkills.SponsorARunnerDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MarathonSkills"
+        mc:Ignorable="d"
+        Title="SponsorARunnerDialog" Height="300" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="61*"/>
+            <ColumnDefinition Width="67*"/>
+            <ColumnDefinition Width="68*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="65*"/>
+            <RowDefinition Height="150*"/>
+        </Grid.RowDefinitions>
+        <Image Grid.Column="1" Grid.Row="1"/>
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" HorizontalContentAlignment="Center" Content="Наименование организации" FontSize="18" Foreground="Gray" FontWeight="DemiBold"/>
+        <TextBlock Grid.Row="2" Text="Сюда вставляется большое кол-во ин-фы об организациях" FontSize="18" Foreground="Gray" TextAlignment="Left"  Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+    </Grid>
+</Window>

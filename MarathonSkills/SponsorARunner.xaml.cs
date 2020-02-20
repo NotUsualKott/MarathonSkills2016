@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace MarathonSkills
 {
     /// <summary>
-    /// Логика взаимодействия для RegisterAsARunner.xaml
+    /// Логика взаимодействия для SponsorARunner.xaml
     /// </summary>
-    public partial class RegisterAsARunner : Window
+    public partial class SponsorARunner : Window
     {
-        public RegisterAsARunner()
+        public SponsorARunner()
         {
             InitializeComponent();
         }
@@ -31,5 +31,21 @@ namespace MarathonSkills
             mainWindow.Show();
             this.Close();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+
+            mainWindow.Show();
+            this.Close();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            SponsorARunnerDialog sponsorARunnerDialog = new SponsorARunnerDialog();
+            sponsorARunnerDialog.ShowDialog();
+            
+        }
+
     }
 }
