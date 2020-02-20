@@ -58,6 +58,12 @@
     <Compile Include="RegisterAsARunner.xaml.cs">
       <DependentUpon>RegisterAsARunner.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SponsorARunner.xaml.cs">
+      <DependentUpon>SponsorARunner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SponsorARunnerDialog.xaml.cs">
+      <DependentUpon>SponsorARunnerDialog.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -71,6 +77,14 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="RegisterAsARunner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SponsorARunner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SponsorARunnerDialog.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

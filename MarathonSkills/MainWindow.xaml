@@ -18,8 +18,8 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="111*"/>
             <RowDefinition Height="70*"/>
-            <RowDefinition Height="25*"/>
-            <RowDefinition Height="45*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="61*"/>
             <RowDefinition Height="30*"/>
             <RowDefinition Height="40*"/>
             <RowDefinition Height="39*"/>
@@ -47,8 +47,8 @@
         <Grid HorizontalAlignment="Center" Height="28" Grid.Row="8" VerticalAlignment="Bottom" Width="792" Grid.ColumnSpan="6" Background="Gray">
             <Label Content="x1 дней x2 часов и x3 минут до начала марафона!" HorizontalAlignment="Center" Width="500" HorizontalContentAlignment="Center" FontSize="14" Foreground="LightGray" VerticalAlignment="Center"/>
         </Grid>
-        <Button Content="Я хочу стать бегуном" FontSize="24" Foreground="DarkSlateGray" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="1" VerticalAlignment="Center" Width="378" Grid.ColumnSpan="3" Height="63" Grid.RowSpan="3"/>
-        <Button Content="Я хочу стать спонсором бегуна" FontSize="24" Foreground="DarkSlateGray" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="3" VerticalAlignment="Center" Width="378" Grid.ColumnSpan="3" Height="63" Grid.RowSpan="3"/>
-        <Button Content="Я хочу узнать больше о событии" FontSize="24" Foreground="DarkSlateGray" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="5" VerticalAlignment="Center" Width="378" Grid.ColumnSpan="3" Height="63" Grid.RowSpan="3"/>
+        <Button Content="Я хочу стать бегуном" FontSize="24" Foreground="DarkSlateGray" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="1" VerticalAlignment="Center" Width="378" Grid.ColumnSpan="3" Height="62" Grid.RowSpan="3" Click="Button_Click" Margin="10,36,10,42"/>
+        <Button Content="Я хочу стать спонсором бегуна" FontSize="24" Foreground="DarkSlateGray" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="3" VerticalAlignment="Center" Width="378" Grid.ColumnSpan="3" Height="62" Grid.RowSpan="3" Margin="10,34,10,35" Click="Button_Click_1"/>
+        <Button Content="Я хочу узнать больше о событии" FontSize="24" Foreground="DarkSlateGray" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="5" VerticalAlignment="Center" Width="378" Grid.ColumnSpan="3" Height="64" Grid.RowSpan="3" Margin="10,23"/>
     </Grid>
 </Window>

@@ -15,21 +15,13 @@ using System.Windows.Shapes;
 namespace MarathonSkills
 {
     /// <summary>
-    /// Логика взаимодействия для RegisterAsARunner.xaml
+    /// Логика взаимодействия для SponsorARunnerDialog.xaml
     /// </summary>
-    public partial class RegisterAsARunner : Window
+    public partial class SponsorARunnerDialog : Window
     {
-        public RegisterAsARunner()
+        public SponsorARunnerDialog()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow mainWindow = new MainWindow();
-
-            mainWindow.Show();
-            this.Close();
         }
     }
 }
