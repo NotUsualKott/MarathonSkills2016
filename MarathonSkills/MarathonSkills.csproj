@@ -55,6 +55,24 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AboutMarathonSkills2016.xaml.cs">
+      <DependentUpon>AboutMarathonSkills2016.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FindOutMoreInfo.xaml.cs">
+      <DependentUpon>FindOutMoreInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InteractiveMap.xaml.cs">
+      <DependentUpon>InteractiveMap.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InteractiveMapDialog.xaml.cs">
+      <DependentUpon>InteractiveMapDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDialog.xaml.cs">
+      <DependentUpon>LoginDialog.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RegisterAsARunner.xaml.cs">
       <DependentUpon>RegisterAsARunner.xaml</DependentUpon>
     </Compile>
@@ -64,6 +82,30 @@
     <Compile Include="SponsorARunnerDialog.xaml.cs">
       <DependentUpon>SponsorARunnerDialog.xaml</DependentUpon>
     </Compile>
+    <Page Include="AboutMarathonSkills2016.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FindOutMoreInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InteractiveMap.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InteractiveMapDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoginDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

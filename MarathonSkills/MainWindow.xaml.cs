@@ -48,5 +48,23 @@ namespace MarathonSkills
             sponsorARunner.Show();
             this.Hide();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            FindOutMoreInfo findOutMoreInfo = new FindOutMoreInfo();
+            findOutMoreInfo.Owner = this;
+
+            findOutMoreInfo.Show();
+            this.Hide();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Login login = new Login();
+            login.Owner = this;
+
+            login.Show();
+            this.Hide();
+        }
     }
 }

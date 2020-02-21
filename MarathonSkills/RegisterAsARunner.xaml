@@ -28,7 +28,7 @@
                 <ColumnDefinition Width="23*"/>
                 <ColumnDefinition Width="674*"/>
             </Grid.ColumnDefinitions>
-            <Button Content="Назад" Grid.Column="1" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="27" Click="Button_Click"/>
+            <Button Content="Назад" BorderThickness="0" Grid.Column="1" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="27" Click="Button_Click"/>
             <Label Content="MARATHON SKILLS 2016" Grid.Column="3" HorizontalAlignment="Left" VerticalAlignment="Center" Height="47" FontSize="24" Foreground="White" Width="400" FontWeight="Bold"/>
         </Grid>
 
@@ -37,8 +37,8 @@
         <Grid HorizontalAlignment="Center" Height="28" Grid.Row="4" VerticalAlignment="Bottom" Width="792" Background="Gray" Grid.ColumnSpan="4" Grid.RowSpan="2">
             <Label Content="x1 дней x2 часов и x3 минут до начала марафона!" HorizontalAlignment="Center" Width="500" HorizontalContentAlignment="Center" FontSize="14" Foreground="LightGray" VerticalAlignment="Center"/>
         </Grid>
-        <Button Content="Войти" FontSize="15" VerticalContentAlignment="Center" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Width="76" Height="30"/>
-        <Button Content="Я участвовал ранее" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="1" Foreground="DarkSlateGray" VerticalAlignment="Bottom" FontSize="24" Width="336" Height="65" FontStyle="Italic"/>
-        <Button Content="Я новый участник" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="3" Foreground="DarkSlateGray" VerticalAlignment="Top" FontSize="24" Width="336" Height="65" FontStyle="Italic"/>
+        <Button Content="Войти" FontSize="15" BorderThickness="0" VerticalContentAlignment="Center" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Width="76" Height="30" Click="Button_Click_1"/>
+        <Button Content="Я участвовал ранее" Grid.Column="1" BorderThickness="0" HorizontalAlignment="Center"  Grid.Row="1" Foreground="DarkSlateGray" VerticalAlignment="Bottom" FontSize="24" Width="336" Height="65" FontStyle="Italic"/>
+        <Button Content="Я новый участник" Grid.Column="1" BorderThickness="0" HorizontalAlignment="Center"  Grid.Row="3" Foreground="DarkSlateGray" VerticalAlignment="Top" FontSize="24" Width="336" Height="65" FontStyle="Italic"/>
     </Grid>
 </Window>
