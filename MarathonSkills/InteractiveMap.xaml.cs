@@ -15,28 +15,19 @@ using System.Windows.Shapes;
 namespace MarathonSkills
 {
     /// <summary>
-    /// Логика взаимодействия для RegisterAsARunner.xaml
+    /// Логика взаимодействия для InteractiveMap.xaml
     /// </summary>
-    public partial class RegisterAsARunner : Window
+    public partial class InteractiveMap : Window
     {
-        public RegisterAsARunner()
+        public InteractiveMap()
         {
             InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new MainWindow();
-
-            mainWindow.Show();
-            this.Close();
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            Login login = new Login();
-
-            login.Show();
+            AboutMarathonSkills2016 aboutMarathonSkills2016 = new AboutMarathonSkills2016();
+            aboutMarathonSkills2016.Show();
             this.Close();
         }
     }

@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace MarathonSkills
 {
     /// <summary>
-    /// Логика взаимодействия для RegisterAsARunner.xaml
+    /// Логика взаимодействия для FindOutMoreInfo.xaml
     /// </summary>
-    public partial class RegisterAsARunner : Window
+    public partial class FindOutMoreInfo : Window
     {
-        public RegisterAsARunner()
+        public FindOutMoreInfo()
         {
             InitializeComponent();
         }
@@ -34,9 +34,9 @@ namespace MarathonSkills
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Login login = new Login();
+            AboutMarathonSkills2016 aboutMarathonSkills2016 = new AboutMarathonSkills2016();
 
-            login.Show();
+            aboutMarathonSkills2016.Show();
             this.Close();
         }
     }
