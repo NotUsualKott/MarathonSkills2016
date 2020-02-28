@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MarathonSkills"
         xmlns:Emit="clr-namespace:System.Reflection.Emit;assembly=mscorlib" x:Class="MarathonSkills.InteractiveMapDialog"
         mc:Ignorable="d"
-        Title="InteractiveMapDialog" Height="400" Width="300">
+        Title="InteractiveMapDialog" Height="400" Width="300" ResizeMode="NoResize">
     <Grid Background="LightGray">
         <Grid.RowDefinitions>
             <RowDefinition Height="56*"/>

@@ -39,5 +39,33 @@ namespace MarathonSkills
             aboutMarathonSkills2016.Show();
             this.Close();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            PreviousRaceResults previousRaceResults = new PreviousRaceResults();
+            previousRaceResults.Show();
+            this.Close();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            HowLongIsAMarathon howLongIsAMarathon = new HowLongIsAMarathon();
+            howLongIsAMarathon.Show();
+            this.Close();
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            ListOfCharities listOfCharities = new ListOfCharities();
+            listOfCharities.Show();
+            this.Close();
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            BMICalculator calculator = new BMICalculator();
+            calculator.Show();
+            this.Close();
+        }
     }
 }

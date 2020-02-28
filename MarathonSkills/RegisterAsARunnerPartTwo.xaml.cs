@@ -15,24 +15,21 @@ using System.Windows.Shapes;
 namespace MarathonSkills
 {
     /// <summary>
-    /// Логика взаимодействия для LoginDialog.xaml
+    /// Логика взаимодействия для RegisterAsARunner2.xaml
     /// </summary>
-    public partial class LoginDialog : Window
+    public partial class RegisterAsARunnerPartTwo : Window
     {
-        public LoginDialog()
+        public RegisterAsARunnerPartTwo()
         {
             InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            RunnerMenu runnerMenu = new RunnerMenu();
-            runnerMenu.Show();
-
             Login login = new Login();
-            login.Close();
-            this.Close();
 
+            login.Show();
+            this.Close();
         }
     }
 }

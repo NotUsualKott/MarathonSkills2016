@@ -39,5 +39,23 @@ namespace MarathonSkills
             login.Show();
             this.Close();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            {
+                Login login = new Login();
+
+                login.Show();
+                this.Close();
+            }
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            RegisterAsARunnerPartTwo registerAsARunnerPartTwo = new RegisterAsARunnerPartTwo();
+
+            registerAsARunnerPartTwo.Show();
+            this.Close();
+        }
     }
 }

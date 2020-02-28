@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MarathonSkills"
         mc:Ignorable="d"
-        Title="SponsorARunner" Height="450" Width="800">
+        Title="SponsorARunner" Height="450" Width="800" ResizeMode="NoResize">
     <Grid>
         <Grid.ColumnDefinitions>
 
@@ -68,7 +68,7 @@
             <Label Content="CVC:" HorizontalAlignment="Right"  HorizontalContentAlignment="Right" Foreground="DarkSlateGray" Grid.Row="6" VerticalAlignment="Center" FontSize="15" Height="34" Width="122"/>
             <TextBox Grid.Column="2" HorizontalAlignment="Center" VerticalContentAlignment="Center" Foreground="Gray" FontStyle="Italic" Height="34" Grid.Row="1" TextWrapping="NoWrap" Text="Ваше имя" VerticalAlignment="Center" Width="196" Grid.ColumnSpan="3"/>
             <TextBox Grid.Column="2" HorizontalAlignment="Center" VerticalContentAlignment="Center" Foreground="Gray" FontStyle="Italic" Height="34" Grid.Row="3" TextWrapping="NoWrap" Text="Владелец карты" VerticalAlignment="Center" Width="196" Grid.ColumnSpan="3"/>
-            <TextBox Grid.Column="2" HorizontalAlignment="Center" VerticalContentAlignment="Center" Foreground="Gray" FontStyle="Italic" Height="34" Grid.Row="4" TextWrapping="NoWrap" Text="1234 1234 1234 1234" VerticalAlignment="Center" Width="196" Grid.ColumnSpan="3"/>
+            <TextBox Grid.Column="2" HorizontalAlignment="Center" VerticalContentAlignment="Center" Foreground="Gray" FontStyle="Italic" Height="34" Grid.Row="4" TextWrapping="NoWrap" Text="1234 1234 1234 1234" VerticalAlignment="Center"  Width="196" Grid.ColumnSpan="3"/>
             <TextBox Grid.Column="2" HorizontalAlignment="Center" VerticalContentAlignment="Center" Foreground="Gray" FontStyle="Italic" Height="29" Grid.Row="5" TextWrapping="NoWrap" Text="01" VerticalAlignment="Center" Width="37"/>
             <TextBox Grid.Column="4" HorizontalAlignment="Left" VerticalContentAlignment="Center" Foreground="Gray" FontStyle="Italic" Height="29" Grid.Row="5" TextWrapping="NoWrap" Text="2017" VerticalAlignment="Center" Width="37"/>
             <TextBox Grid.Column="2" HorizontalAlignment="Left" VerticalContentAlignment="Center" Foreground="Gray" FontStyle="Italic" Height="29" Grid.Row="6" TextWrapping="NoWrap" Text="123" VerticalAlignment="Center" Width="37"/>
@@ -107,7 +107,7 @@
             <Button Grid.ColumnSpan="2" Content="Оплатить" BorderThickness="0" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Width="70" Height="20"/>
             <Button Grid.ColumnSpan="2" Content="Отмена"  BorderThickness="0" Grid.Column="4" Grid.Row="6" VerticalContentAlignment="Top" VerticalAlignment="Center" Height="20" Click="Button_Click_1"/>
         </Grid>
-        <Label Content="Спонсор бегуна" Foreground="DarkSlateGray" HorizontalContentAlignment="Center" Grid.Column="2" FontSize="18" HorizontalAlignment="Center"  Grid.Row="2" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="33" Width="396"/>
+        <Label Content="Спонсор бегуна" Foreground="Gray" HorizontalContentAlignment="Center" Grid.Column="2" FontSize="18" HorizontalAlignment="Center"  Grid.Row="2" VerticalAlignment="Center" FontWeight="DemiBold" Grid.ColumnSpan="2" Height="33" Width="396"/>
         <TextBox Grid.Column="1" Foreground="DarkSlateGray" FontSize="15" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Height="67" Grid.Row="3" BorderThickness="0" TextWrapping="Wrap" Text="Пожалуйста выберите бегуна, которого вы отели бы спонсировать и сумму, которую вы хотели бы спонсировать. Спасибо за вашу поддержку бегунов и их благотворительных учреждений" VerticalAlignment="Center" Width="510" Grid.ColumnSpan="4"/>
 
     </Grid>

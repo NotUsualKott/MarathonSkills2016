@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MarathonSkills"
         mc:Ignorable="d"
-        Title="SponsorARunnerDialog" Height="300" Width="400">
+        Title="SponsorARunnerDialog" Height="300" Width="400" ResizeMode="NoResize">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="61*"/>
