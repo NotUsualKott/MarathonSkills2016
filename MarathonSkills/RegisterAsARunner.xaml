@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MarathonSkills"
         mc:Ignorable="d"
-        Title="RegisterAsARunner" Height="450" Width="800">
+        Title="RegisterAsARunner" Height="450" Width="800" ResizeMode="NoResize">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="226*"/>
@@ -38,7 +38,7 @@
             <Label Content="x1 дней x2 часов и x3 минут до начала марафона!" HorizontalAlignment="Center" Width="500" HorizontalContentAlignment="Center" FontSize="14" Foreground="LightGray" VerticalAlignment="Center"/>
         </Grid>
         <Button Content="Войти" FontSize="15" BorderThickness="0" VerticalContentAlignment="Center" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Width="76" Height="30" Click="Button_Click_1"/>
-        <Button Content="Я участвовал ранее" Grid.Column="1" BorderThickness="0" HorizontalAlignment="Center"  Grid.Row="1" Foreground="DarkSlateGray" VerticalAlignment="Bottom" FontSize="24" Width="336" Height="65" FontStyle="Italic"/>
-        <Button Content="Я новый участник" Grid.Column="1" BorderThickness="0" HorizontalAlignment="Center"  Grid.Row="3" Foreground="DarkSlateGray" VerticalAlignment="Top" FontSize="24" Width="336" Height="65" FontStyle="Italic"/>
+        <Button Content="Я участвовал ранее" Grid.Column="1" BorderThickness="0" HorizontalAlignment="Center"  Grid.Row="1" Foreground="DarkSlateGray" VerticalAlignment="Bottom" FontSize="24" Width="336" Height="65" FontStyle="Italic" Click="Button_Click_2"/>
+        <Button Content="Я новый участник" Grid.Column="1" BorderThickness="0" HorizontalAlignment="Center"  Grid.Row="3" Foreground="DarkSlateGray" VerticalAlignment="Top" FontSize="24" Width="336" Height="65" FontStyle="Italic" Click="Button_Click_3"/>
     </Grid>
 </Window>

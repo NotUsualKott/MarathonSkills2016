@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MarathonSkills"
         mc:Ignorable="d"
-        Title="FindOutMoreInfo" Height="450" Width="800">
+        Title="FindOutMoreInfo" Height="450" Width="800" ResizeMode="NoResize">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="123*"/>
@@ -46,10 +46,10 @@
 
         <Label Content="Подробная информация" HorizontalAlignment="Center" Grid.Column="0"  Grid.Row="1" FontSize="22" Foreground="Gray" FontWeight="DemiBold" VerticalAlignment="Center" Grid.ColumnSpan="3" Margin="262,12,178,12" Height="38" Width="268"/>
         <Button Content="Marathon Skills 2016" FontSize="20" Foreground="DarkSlateGray" BorderThickness="0"  HorizontalAlignment="Right" Grid.Row="3" VerticalAlignment="Center" Width="270" Height="45" FontStyle="Italic" Click="Button_Click_1"/>
-        <Button Content="Предыдущие результаты" FontSize="20" Foreground="DarkSlateGray" BorderThickness="0"  HorizontalAlignment="Right" Grid.Row="5" VerticalAlignment="Center" Width="270" Height="45" FontStyle="Italic"/>
-        <Button Content="BMI калькулятор" FontSize="20" Foreground="DarkSlateGray" BorderThickness="0"  HorizontalAlignment="Right" Grid.Row="7" VerticalAlignment="Center" Width="270" Height="45" FontStyle="Italic"/>
-        <Button Content="Насколько долгий марафон" FontSize="20" Foreground="DarkSlateGray" BorderThickness="0" Grid.Column="2"  HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Center" Width="270" Height="45" FontStyle="Italic"/>
-        <Button Content="Список организаций" FontSize="20" Foreground="DarkSlateGray" BorderThickness="0" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Center" Width="270" Height="45" FontStyle="Italic"/>
+        <Button Content="Предыдущие результаты" FontSize="20" Foreground="DarkSlateGray" BorderThickness="0"  HorizontalAlignment="Right" Grid.Row="5" VerticalAlignment="Center" Width="270" Height="45" FontStyle="Italic" Click="Button_Click_2"/>
+        <Button Content="BMI калькулятор" FontSize="20" Foreground="DarkSlateGray" BorderThickness="0"  HorizontalAlignment="Right" Grid.Row="7" VerticalAlignment="Center" Width="270" Height="45" FontStyle="Italic" Click="Button_Click_5"/>
+        <Button Content="Насколько долгий марафон" FontSize="20" Foreground="DarkSlateGray" BorderThickness="0" Grid.Column="2"  HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Center" Width="270" Height="45" FontStyle="Italic" Click="Button_Click_3"/>
+        <Button Content="Список организаций" FontSize="20" Foreground="DarkSlateGray" BorderThickness="0" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Center" Width="270" Height="45" FontStyle="Italic" Click="Button_Click_4"/>
         <Button Content="BMR калькулятор" FontSize="20" Foreground="DarkSlateGray" BorderThickness="0" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="7" VerticalAlignment="Center" Width="270" Height="45" FontStyle="Italic"/>
 
 

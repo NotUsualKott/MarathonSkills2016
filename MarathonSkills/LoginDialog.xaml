@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MarathonSkills"
         mc:Ignorable="d"
-        Title="LoginDialog" Height="300" Width="400">
+        Title="LoginDialog" Height="300" Width="400" ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50*"/>
@@ -17,7 +17,7 @@
         </Grid.RowDefinitions>
         <Label Content="Только для тестирования" FontSize="24" Opacity="0.60" Foreground="Orange" FontWeight="Regular" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
         <TextBlock HorizontalAlignment="Center" Height="30" Grid.Row="1" FontSize="18" Foreground="Gray" TextAlignment="Center" TextWrapping="Wrap" Text="Выберите роль пользователя" VerticalAlignment="Center" Width="300"/>
-        <Button Content="Бегун" FontSize="16"  HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Width="150" Height="35" BorderThickness="0"/>
+        <Button Content="Бегун" FontSize="16"  HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Width="150" Height="35" BorderThickness="0" Click="Button_Click"/>
         <Button Content="Координатор" FontSize="16"  HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Width="150" Height="35" BorderThickness="0"/>
         <Button Content="Администратор" FontSize="16"  HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Width="150" Height="35" BorderThickness="0"/>
     </Grid>
